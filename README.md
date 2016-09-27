@@ -53,7 +53,7 @@ let r = x.mapOr(42) { (v: String) -> Int in
 } // r == 3
 ```
 
-### mapOrElse\<T>\(_ def: () -> T, _ f: (Wrapped) -> T) -> T {
+### mapOrElse\<T>\(_ def: () -> T, _ f: (Wrapped) -> T) -> T 
 Applies a function to the contained value (if any), or computes a default (if not).
 ```swift
 let x: String? = nil
