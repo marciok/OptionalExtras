@@ -1,0 +1,16 @@
+PODS:
+  - OptionalExtras (0.1.0)
+
+DEPENDENCIES:
+  - OptionalExtras (from `../`)
+
+EXTERNAL SOURCES:
+  OptionalExtras:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  OptionalExtras: 6932dd3c882a2d4ee1ab0d7986ac944036116c1b
+
+PODFILE CHECKSUM: baa1b24c6f270a5b29fe20c86c47dde924a3ae3d
+
+COCOAPODS: 1.0.1

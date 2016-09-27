@@ -1,0 +1,6 @@
+framework module OptionalExtras {
+  umbrella header "OptionalExtras-umbrella.h"
+
+  export *
+  module * { export * }
+}
