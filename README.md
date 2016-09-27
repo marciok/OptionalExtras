@@ -1,6 +1,6 @@
 # OptionalExtras
 
-[![CI Status](http://img.shields.io/travis/Marcio Klepacz/OptionalExtras.svg?style=flat)](https://travis-ci.org/Marcio Klepacz/OptionalExtras)
+[![CI Status](http://img.shields.io/travis/Marcio Klepacz/OptionalExtras.svg?style=flat)](https://travis-ci.org/marciok/OptionalExtras)
 [![Version](https://img.shields.io/cocoapods/v/OptionalExtras.svg?style=flat)](http://cocoapods.org/pods/OptionalExtras)
 [![License](https://img.shields.io/cocoapods/l/OptionalExtras.svg?style=flat)](http://cocoapods.org/pods/OptionalExtras)
 [![Platform](https://img.shields.io/cocoapods/p/OptionalExtras.svg?style=flat)](http://cocoapods.org/pods/OptionalExtras)
