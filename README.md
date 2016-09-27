@@ -12,8 +12,8 @@ Handful of functions that will help you work with `Optional` types. 100% inspire
 ### expect(_ desrcription: String) -> Wrapped
 Unwraps an `Optional`, yielding the content of a .some. Or throws `fatalError` with given description
 ```swift
-  let x: String? = nil
-  x.expect("the world is ending")
+let x: String? = nil
+x.expect("the world is ending")
 ```
 
 ### unwrapOr(_ def: Wrapped) -> Wrapped
@@ -55,7 +55,7 @@ let r = x.mapOr(42) { (v: String) -> Int in
 
 ### mapOrElse\<T>\(_ def: () -> T, _ f: (Wrapped) -> T) -> T {
 Applies a function to the contained value (if any), or computes a default (if not).
-```switf
+```swift
 let x: String? = nil
 let r = x.mapOrElse({
     3 * 3
