@@ -10,5 +10,7 @@ language: objective-c
 # - gem install cocoapods # Since Travis is not always on latest version
 # - pod install --project-directory=Example
 script:
-- set -o pipefail && xcodebuild test -workspace Example/OptionalExtras.xcworkspace -scheme OptionalExtras-Example -destination 'platform=iOS Simulator,name=iPhone 6,OS=10.0' ONLY_ACTIVE_ARCH=NO | xcpretty
+- set -o pipefail 
+- xcodebuild test -scheme OptionalExtras-macOS
+- xcodebuild test -scheme OptionalExtras -destination 'platform=iOS Simulator,name=iPhone 6,OS=10.0'  ONLY_ACTIVE_ARCH=NO
   #- pod lib lint
