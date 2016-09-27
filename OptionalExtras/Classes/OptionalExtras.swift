@@ -15,8 +15,8 @@ public extension Optional {
      Or throws `fatalError` with given description
      
      */
-    func expect(_ desrcription: String) -> Wrapped {
-        guard let val = self else  { fatalError(desrcription) }
+    func expect(_ description: String) -> Wrapped {
+        guard let val = self else  { fatalError(description) }
         
         return val;
     }
@@ -36,14 +36,14 @@ public extension Optional {
     }
 
     /**
-     Returns true if the option is nil
+     Returns true if the `Optional` is nil
      */
     func isNone() -> Bool {
         return self == nil;
     }
     
     /**
-     Returns true if the option is .some
+     Returns true if the `Optional` is .some
      */
     func isSome() -> Bool {
         return !isNone();
@@ -68,7 +68,7 @@ public extension Optional {
     }
     
     /**
-     Returns None if the option is nil, otherwise returns optb.
+     Returns .none if the `Optional` is nil, otherwise returns optb.
      */
     func and(_ optb: Optional) -> Optional {
         if self.isSome() && optb.isSome() { return optb }
@@ -77,7 +77,7 @@ public extension Optional {
     }
     
     /**
-     Returns nil if the option is .none, otherwise returns optb.
+     Returns nil if the `Optional` is .none, otherwise returns optb.
      */
     func or(_ optb: Optional) -> Optional {
         if self.isSome() {
@@ -92,7 +92,7 @@ public extension Optional {
     }
     
     /**
-     Returns the option if it contains a value, otherwise calls f and returns the result.
+     Returns the `Optional` if it contains a value, otherwise calls f and returns the result.
      */
     func orElse(_ f: () -> Optional) -> Optional {
         let res = f();
