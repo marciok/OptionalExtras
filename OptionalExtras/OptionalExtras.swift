@@ -34,7 +34,7 @@ public extension Optional {
     func unwrapOrElse(_ f: () -> Wrapped) -> Wrapped {
         return self.unwrapOr(f())
     }
-
+    
     /**
      Returns true if the `Optional` is nil
      */

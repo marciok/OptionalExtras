@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'OptionalExtras'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'Useful functions for Swift Optional types'
 
 # This description is used to generate tags and improve search results.
@@ -28,9 +28,12 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/marciok/OptionalExtras.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+    s.ios.deployment_target = "8.0"
+    s.osx.deployment_target = "10.10"
+    s.tvos.deployment_target = "9.0"
+    s.watchos.deployment_target = "2.0"
 
-  s.source_files = 'OptionalExtras/Classes/**/*'
+  s.source_files = 'OptionalExtras/*'
   
   # s.resource_bundles = {
   #   'OptionalExtras' => ['OptionalExtras/Assets/*.png']

@@ -14,23 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-               BuildableName = "OptionalExtras_Example.app"
-               BlueprintName = "OptionalExtras_Example"
-               ReferencedContainer = "container:OptionalExtras.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "607FACE41AFB9204008FA782"
-               BuildableName = "OptionalExtras_Tests.xctest"
-               BlueprintName = "OptionalExtras_Tests"
+               BlueprintIdentifier = "572D241E1D9B291100CC9C5F"
+               BuildableName = "OptionalExtras.framework"
+               BlueprintName = "OptionalExtras"
                ReferencedContainer = "container:OptionalExtras.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -46,9 +32,9 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "607FACE41AFB9204008FA782"
-               BuildableName = "OptionalExtras_Tests.xctest"
-               BlueprintName = "OptionalExtras_Tests"
+               BlueprintIdentifier = "572D24271D9B291100CC9C5F"
+               BuildableName = "OptionalExtrasTests.xctest"
+               BlueprintName = "OptionalExtrasTests"
                ReferencedContainer = "container:OptionalExtras.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -56,9 +42,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-            BuildableName = "OptionalExtras_Example.app"
-            BlueprintName = "OptionalExtras_Example"
+            BlueprintIdentifier = "572D241E1D9B291100CC9C5F"
+            BuildableName = "OptionalExtras.framework"
+            BlueprintName = "OptionalExtras"
             ReferencedContainer = "container:OptionalExtras.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -75,16 +61,15 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-            BuildableName = "OptionalExtras_Example.app"
-            BlueprintName = "OptionalExtras_Example"
+            BlueprintIdentifier = "572D241E1D9B291100CC9C5F"
+            BuildableName = "OptionalExtras.framework"
+            BlueprintName = "OptionalExtras"
             ReferencedContainer = "container:OptionalExtras.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -94,16 +79,15 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-            BuildableName = "OptionalExtras_Example.app"
-            BlueprintName = "OptionalExtras_Example"
+            BlueprintIdentifier = "572D241E1D9B291100CC9C5F"
+            BuildableName = "OptionalExtras.framework"
+            BlueprintName = "OptionalExtras"
             ReferencedContainer = "container:OptionalExtras.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

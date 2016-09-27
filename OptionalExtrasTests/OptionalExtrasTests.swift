@@ -85,7 +85,7 @@ class OptionalExtrasTests: XCTestCase {
         //Assert
         XCTAssertFalse(r)
     }
-  
+    
     func test_isSomeWhenIsSome() {
         //Arrange
         let x: String? = "a"
@@ -293,7 +293,4 @@ class OptionalExtrasTests: XCTestCase {
         //Assert
         XCTAssertEqual(r!, "foo")
     }
-    
-    
-    
 }

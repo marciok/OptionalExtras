@@ -1,6 +1,0 @@
-use_frameworks!
-target 'OptionalExtras_Tests' do
-  pod 'OptionalExtras', :path => '../'
-  
-  
-end
