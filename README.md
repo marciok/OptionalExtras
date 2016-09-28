@@ -89,8 +89,6 @@ let x: String? = nil
 let r = x.orElse { "foo" } // r! == "foo"
 ```
 
-## Requirements
-
 ## Installation
 
 OptionalExtras is available through [CocoaPods](http://cocoapods.org). To install
@@ -98,6 +96,10 @@ it, simply add the following line to your Podfile:
 
 ```ruby
 pod "OptionalExtras"
+```
+Or through Carthage:
+```ruby
+github "marciok/OptionalExtras"
 ```
 
 ## Author
