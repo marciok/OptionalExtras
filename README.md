@@ -9,7 +9,7 @@ Handful of functions that will help you work with `Optional` types. 100% inspire
 
 ## Examples
 
-### expect(_ desrcription: String) -> Wrapped
+### expect(_ description: String) -> Wrapped
 Unwraps an `Optional`, yielding the content of a .some. Or throws `fatalError` with given description
 ```swift
 let x: String? = nil
