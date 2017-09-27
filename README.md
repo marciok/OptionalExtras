@@ -18,28 +18,28 @@ x.expect("the world is ending")
 
 ### unwrapOr(_ def: Wrapped) -> Wrapped
 Returns the contained value or a default.
-````swift
+```swift
 let x: Int? = nil
 let r = x.unwrapOr(20) // r == 20
 ```
 
 ### unwrapOrElse(_ f: () -> Wrapped) -> Wrapped
 Returns the contained value or computes it from a closure.
-````swift
+```swift
 let x: Int? = nil
 let r = x.unwrapOrElse { 2 * 2 } // r == 4
 ```
 
 ### isNone() -> Bool
 Returns true if the `Optional` is nil
-````swift
+```swift
 let x: String? = nil
 let r = x.isNone() // r == true
 ```
 
 ### isSome() -> Bool
 Returns true if the `Optional` is .some
-````swift
+```swift
 let x: String? = "foo"
 let r = x.isSome() // r == true
 ```
